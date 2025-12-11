@@ -1,4 +1,56 @@
-#whole_post{
+*{
+    border: 1px solid red;
+}
+
+.whole_post{
+   background-color: blue;
+   width: 60%;
+}
+
+.head{
+    background-color: pink;
+    display: flex;
+    
+    
+}
+
+.section1{
+    background-color: orange;
+    
+}
+
+.section2{
+    background-color: red;
+    
+}
+
+.section3{
+    background-color: green;
+    margin-left: auto; 
+    margin-right: 5%;
+}
+
+.body{
+    background-color: purple;
+}
+
+.tail{
+    background-color: grey;
+}
+
+.icons{
+    background-color: yellow;
+}
+
+.text_1{
+    background-color: lightblue;
+}
+
+.text_2{
+    background-color: darkblue;
+}
+
+body{
     display: flex;
     justify-content: center;
 }
