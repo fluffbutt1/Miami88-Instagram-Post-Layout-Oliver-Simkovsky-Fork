@@ -1,17 +1,15 @@
-/* *{
+ *{
     border: 1px solid red;
-} */
+} 
 
 .whole_post{
    /* background-color: blue; */
-   width: 60%;
+   width: 40%;
 }
 
 .head{
     /* background-color: pink; */
     display: flex;
-    
-    
 }
 
 
@@ -21,6 +19,10 @@
     margin-right: 5%;
 }
 
+.middle{
+    display: flex;
+    justify-content: center;
+}
 
 body{
     display: flex;
