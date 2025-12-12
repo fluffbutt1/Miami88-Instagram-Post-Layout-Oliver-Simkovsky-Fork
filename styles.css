@@ -1,62 +1,26 @@
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 
 .whole_post{
-   background-color: blue;
+   /* background-color: blue; */
    width: 60%;
 }
 
 .head{
-    background-color: pink;
+    /* background-color: pink; */
     display: flex;
     
     
 }
 
-.section1{
-    background-color: orange;
-    
-}
-
-.section2{
-    background-color: red;
-    
-}
 
 .section3{
-    background-color: green;
+    
     margin-left: auto; 
     margin-right: 5%;
 }
 
-.section4{
-    background-color: lightgreen;
-}
-
-.sections{
-    background-color: lightsalmon;
-}
-
-.body{
-    background-color: purple;
-}
-
-.tail{
-    background-color: grey;
-}
-
-.icons{
-    background-color: yellow;
-}
-
-.text_1{
-    background-color: lightblue;
-}
-
-.text_2{
-    background-color: darkblue;
-}
 
 body{
     display: flex;
