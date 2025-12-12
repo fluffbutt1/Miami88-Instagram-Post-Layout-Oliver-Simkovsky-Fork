@@ -1,22 +1,26 @@
- *{
-    border: 1px solid red;
-} 
+ /* *{
+    border: 1px dotted red;
+}  */
 
 .whole_post{
-   /* background-color: blue; */
-   width: 40%;
+   background-color: white;
+   width: 24%;
 }
 
 .head{
-    /* background-color: pink; */
-    display: flex;
+     display: flex;
+}
+
+.section1{
+    padding-top: 20px;
 }
 
 
 .section3{
-    
+    padding-top: 20px;
     margin-left: auto; 
     margin-right: 5%;
+    font-
 }
 
 .middle{
@@ -25,6 +29,11 @@
 }
 
 body{
+    background-color: black;
     display: flex;
     justify-content: center;
+}
+
+h1 {
+  font-size: 12px;
 }
