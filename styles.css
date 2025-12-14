@@ -4,7 +4,7 @@
 
 .whole_post {
   background-color: white;
-  width: 24%;
+  width: 23%;
 }
 
 .head {
@@ -46,6 +46,15 @@
 
 .icons{
   font-size: 25px;
+}
+
+.tail{
+  padding-left: 9px;
+  padding-bottom: 20px;
+}
+
+.text_2{
+  font-size: 12px;
 }
 
 body {
