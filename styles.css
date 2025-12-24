@@ -1,88 +1,32 @@
 /* *{
-    border: 1px dotted red;
-}  */
+  border: 1px solid red;
+} */
 
-.whole_post {
-  background-color: white;
-  width: 23%;
-}
-
-.head {
-  display: flex;
-  height: 70px;
-}
-
-.section1 {
-  padding-top: 20px;
-}
-
-.section2{
-  padding-top: 10px;
-  font-size: 30px;
-  line-height: 1;
-}
-
-.section3 {
-  padding-top: 8px;
-  padding-bottom: 20px;
-  margin-left: auto;
-  margin-right: 0.01%;
-  font-size: 35px;
-}
-
-.section4{
-  margin-bottom: 50px;
-  line-height: 0.3;
-}
-
-.sections{
-  height: 40px;
-}
-
-.middle {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 8px;
-}
-
-.icons i {
-  font-size: 25px;
-  margin-bottom: 20px;
-  width: 100px, auto;
-  /* margin-right: 12px; */
-}
-
-.icons i:last-child {
-  margin-right: 0;
-  margin-left: 220px;
-}
-
-.tail{
-  padding-left: 9px;
-  padding-bottom: 8px;
-}
-
-.text_1{
-  font-size: 13.5px;
-  margin-bottom: 8px;
-  height: auto;
-}
-
-.text_2{
-  font-size: 13.5px;
-  margin-bottom: 25px;
-  width: 340px;
-}
-
-body {
-padding-top: 50px;
+body{
   background-color: black;
   display: flex;
   justify-content: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Roboto, Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+             "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  font-size: 12px;
+.whole-post{
+  background-color: white;
+  width: min(92vw, 420px);
+}
+
+.head{
+  display: flex;
+}
+
+.left{
+  margin-right: auto;
+}
+
+.right{
+  margin-left: auto;
+}
+
+.title{
+  font-size: 1rem;
 }
