@@ -17,6 +17,7 @@ body{
 
 .head{
   display: flex;
+  padding: 0.8rem 0;
 }
 
 .left{
@@ -25,7 +26,6 @@ body{
 
 .right{
   margin-left: auto;
-  padding-top: 0.2%
 }
 
 .title{
@@ -35,4 +35,17 @@ body{
 .middle img{
   width: 100%;
   display: block;
+  height: auto;
+}
+
+.tail{
+  padding-top: 1.5rem;
+}
+
+.icons{
+  display: flex;
+}
+
+.bookmark{
+  margin-left: auto;
 }
