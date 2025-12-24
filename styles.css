@@ -39,7 +39,7 @@ body{
 }
 
 .tail{
-  padding-top: 1.5rem;
+  padding: 1rem;
 }
 
 .icons{
@@ -48,4 +48,8 @@ body{
 
 .bookmark{
   margin-left: auto;
+}
+
+.likes{
+  font-size: 80%;
 }
