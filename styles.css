@@ -20,10 +20,6 @@ body{
   padding: 0.8rem 0;
 }
 
-.left{
-  margin-right: auto;
-}
-
 .right{
   margin-left: auto;
 }
@@ -52,4 +48,21 @@ body{
 
 .likes{
   font-size: 80%;
+}
+
+.left{
+  /* border: 0.0625rem solid pink; */
+  display: flex;
+  height: 20%;
+}
+
+.title{
+  /* border: 0.0625rem solid red; */
+}
+
+.subtitle{
+  /* border: 0.0625rem solid green; */
+  font-size: 80%;
+  height: 20%;
+  min-width: 0;
 }
