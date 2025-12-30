@@ -12,7 +12,7 @@ body{
 
 .whole-post{
   background-color: white;
-  width: min(92vw, 420px);
+  width: min(96vw, 460px);
 }
 
 .head{
@@ -41,6 +41,7 @@ body{
 
 .icons{
   display: flex;
+  padding-top: 0.5rem;
 }
 
 .bookmark{
@@ -65,4 +66,8 @@ body{
   font-size: 80%;
   height: 20%;
   min-width: 0;
+}
+
+.paragraph{
+  font-size: 80%;
 }
